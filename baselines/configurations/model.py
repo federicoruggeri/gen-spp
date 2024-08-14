@@ -63,7 +63,7 @@ class FRConfig(BaseConfig):
             sparsity_coefficient=1.0,
             sparsity_level=0.15,
             add_continuity_loss=True,
-            continuity_coefficient=1.0,
+            continuity_coefficient=2.0,
             classification_coefficient=1.0
         )
 
@@ -166,7 +166,7 @@ class MGRConfig(BaseConfig):
             sparsity_coefficient=1,
             sparsity_level=0.15,
             add_continuity_loss=True,
-            continuity_coefficient=1,
+            continuity_coefficient=2.0,
             classification_coefficient=1.0,
             num_generators=3
         )
@@ -269,7 +269,7 @@ class MCDConfig(BaseConfig):
             sparsity_coefficient=1,
             sparsity_level=0.15,
             add_continuity_loss=True,
-            continuity_coefficient=1,
+            continuity_coefficient=2.0,
             classification_coefficient=1.0
         )
 
@@ -380,7 +380,7 @@ class GRATConfig(BaseConfig):
             sparsity_coefficient=1,
             sparsity_level=0.15,
             add_continuity_loss=True,
-            continuity_coefficient=1,
+            continuity_coefficient=2.0,
             classification_coefficient=1.0,
             guide_coefficient=1.0,
             jsd_coefficient=1.0,
