@@ -210,3 +210,11 @@ We provide a script to evaluate string matching baselines (see Supplementary Mat
 ```commandline
 python3 runnables/toy_pattern.py
 ```
+
+## Showing results
+
+We provide a utility script to quickly retrieve model results
+
+```commandline
+python3 runnables/show_results.py
+```
